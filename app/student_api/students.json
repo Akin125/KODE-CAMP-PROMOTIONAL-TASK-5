@@ -1,0 +1,22 @@
+[
+    {
+        "name": "John Doe",
+        "subject_scores": {
+            "Math": 80,
+            "English": 70,
+            "Biology": 90
+        },
+        "average": 80.0,
+        "grade": "A"
+    },
+    {
+        "name": "testDoe",
+        "subject_scores": {
+            "Math": 80,
+            "English": 70,
+            "Biology": 90
+        },
+        "average": 80.0,
+        "grade": "A"
+    }
+]
