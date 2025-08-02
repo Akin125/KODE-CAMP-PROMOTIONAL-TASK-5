@@ -35,7 +35,7 @@ def save_students(data):
     with open(DATA_FILE, 'w') as f:
         json.dump(data, f, indent=4)
 
-@app.post("/students/",
+@app.post("/students/", 
     response_model=dict,
     summary="Add a new student",
     description="Add a new student with their name and subject scores",
